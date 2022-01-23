@@ -13,7 +13,7 @@
 .technology {
     width: 150px;
     padding: 1px 25px 1px 25px;
-    display: box;
+    display: block;
     margin-right: 20px;
     margin-top: 15px;
 }
