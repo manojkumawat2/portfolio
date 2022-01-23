@@ -12,22 +12,22 @@ function Intro () {
                         a Software Developer.
                     </p>
                     <div className="social-icons">
-                        <a href="?#" className="social-icon">
-                            <i class="bi bi-linkedin"></i>
+                        <a href="/#" className="social-icon">
+                            <i className="bi bi-linkedin"></i>
                         </a>
-                        <a href="?#" className="social-icon">
-                            <i class="bi bi-github"></i>
+                        <a href="/#" className="social-icon">
+                            <i className="bi bi-github"></i>
                         </a>
-                        <a href="?#" className="social-icon">
-                            <i class="bi bi-instagram"></i>
+                        <a href="/#" className="social-icon">
+                            <i className="bi bi-instagram"></i>
                         </a>
-                        <a href="?#" className="social-icon">
-                            <i class="bi bi-twitter"></i>
+                        <a href="/#" className="social-icon">
+                            <i className="bi bi-twitter"></i>
                         </a>
                     </div>
                     <div className="intro-buttons mt-3">
-                        <a href="?#" type="button" class="intro-resume-button btn btn-light">
-                            <i class="bi bi-download"></i> Download CV
+                        <a href="?#" type="button" className="intro-resume-button btn btn-light">
+                            <i className="bi bi-download"></i> Download CV
                         </a>
                     </div>
                 </div>
