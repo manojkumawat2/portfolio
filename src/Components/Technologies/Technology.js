@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import ContentLoader from 'react-content-loader';
 
 
