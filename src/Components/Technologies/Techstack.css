@@ -1,0 +1,19 @@
+.techstack-container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.technologies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.technology {
+    width: 150px;
+    padding: 1px 25px 1px 25px;
+    display: box;
+    margin-right: 20px;
+    margin-top: 15px;
+}

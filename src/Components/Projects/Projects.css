@@ -1,0 +1,47 @@
+.project-container {
+    margin-bottom: 100px;
+}
+
+.project {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project-desc {
+    color: grey;
+}
+
+.project-links {
+    display: flex;
+}
+
+.project-link i {
+    font-size: 26px;
+}
+
+.project-link {
+    margin-right: 10px;
+}
+
+.project-img {
+    max-width: 350px;
+}
+
+.project-img img {
+    width: 100%;
+    height: auto;
+}
+
+.project-title {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .project {
+        display: block;
+    }
+    .project-img {
+        width: 100%;
+        max-width: 100%;
+    }
+}
