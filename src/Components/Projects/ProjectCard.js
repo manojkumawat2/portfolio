@@ -20,10 +20,10 @@ function ProjectCard(props) {
                     {technologies}
                 </div>
                 <div className="project-links mt-2">
-                    <a href={props.links.github} className="project-link" target="_blank">
+                    <a href={props.links.github} className="project-link" target="_blank" rel="noreferrer">
                         <i class="bi bi-github"></i>
                     </a>
-                    <a href={props.links.live_link} className="project-link" target="_blank">
+                    <a href={props.links.live_link} className="project-link" target="_blank" rel="noreferrer">
                         <i class="bi bi-globe"></i>
                     </a>
                 </div>
