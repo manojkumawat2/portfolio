@@ -7,7 +7,7 @@ function ProjectCard(props) {
         );
     })
     return (
-        <div className="project shadow rounded border-top border-primary border-2 mt-5">
+        <div className="project shadow-sm rounded border-top border-primary border-2 mt-5">
             <div className="project-img">
                 <img src={require(`./${props.img_name}`)} alt={props.title} />
             </div>

@@ -13,6 +13,7 @@ function Techstack () {
                 <Technology img_name='nodejs.png' text = "Node.js" />
                 <Technology img_name='react.png' text = "React.js" />
                 <Technology img_name='jquery.png' text = "jQuery" />
+                <Technology img_name='mysql.png' text = "MySQL" />
                 <Technology img_name='git.png' text = "Github" />
             </div>
         </div>
