@@ -27,11 +27,6 @@ function Contact() {
     const handleFormSubmit = (event) => {
         setIsFormSubmitting(1);
         event.preventDefault();
-        let data = {
-            'email' : email,
-            'name' : name,
-            'message' : message
-        }
     }
 
     return (
@@ -50,7 +45,7 @@ function Contact() {
                     <label for="message" class="form-label">Email address</label>
                     <textarea className="form-control" id="message" placeholder="Enter Message" rows="6" value={message} onChange={handleMessageChange} />
                 </div>
-                <button type="submit" class="btn btn-primary">{isFormSubmitting==0 ? 'Send' : "Sending"} {isFormSubmitting == 0 ? <i class="bi bi-send"></i> : <Spineer />}</button>
+                <button type="submit" class="btn btn-primary">{isFormSubmitting === 0 ? 'Send' : "Sending"} {isFormSubmitting === 0 ? <i class="bi bi-send"></i> : <Spineer />}</button>
             </form>
         </div>
     );
