@@ -12,16 +12,13 @@ function Intro () {
                         a Software Developer.
                     </p>
                     <div className="social-icons">
-                        <a href="/#" className="social-icon">
+                        <a href="https://linkedin.com/in/mkkumawat3333" className="social-icon" target="_blank" rel="noreferrer">
                             <i className="bi bi-linkedin"></i>
                         </a>
-                        <a href="/#" className="social-icon">
+                        <a href="https://github.com/manojkumawat2/" className="social-icon" target="_blank" rel="noreferrer">
                             <i className="bi bi-github"></i>
                         </a>
-                        <a href="/#" className="social-icon">
-                            <i className="bi bi-instagram"></i>
-                        </a>
-                        <a href="/#" className="social-icon">
+                        <a href="https://twitter.com/ManojKumawat199" className="social-icon" target="_blank" rel="noreferrer">
                             <i className="bi bi-twitter"></i>
                         </a>
                     </div>
