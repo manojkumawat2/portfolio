@@ -31,7 +31,7 @@ function Contact() {
 
     return (
         <div className="container contact-container">
-            <h2 className="text-center text-primary fw-bold">Technologies</h2>
+            <h2 className="text-center text-primary fw-bold">Contact Me</h2>
             <form className="contact-form shadow-sm p-3" onSubmit={handleFormSubmit}>
                 <div class="mb-3">
                     <label for="email" class="form-label">Email address</label>
