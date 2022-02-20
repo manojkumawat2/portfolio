@@ -51,7 +51,9 @@ function Contact() {
                 'message': "Please try again later!"
             });
         }
-
+        setEmail("");
+        setName("");
+        setMessage("");
         setFormSubmittingStatus(0);
     }
 
@@ -68,7 +70,7 @@ function Contact() {
                     <input type="text" class="form-control" id="name" placeholder="Enter Name" value={name} onChange={handleNameChange} required/>
                 </div>
                 <div class="mb-3">
-                    <label for="message" class="form-label">Email address</label>
+                    <label for="message" class="form-label">Email Message</label>
                     <textarea className="form-control" id="message" placeholder="Enter Message" rows="6" value={message} onChange={handleMessageChange} required/>
                 </div>
                 <button type="submit" class={formSubmittingStatus === 0 ? 'btn btn-primary' : "btn btn-primary disabled"}>{formSubmittingStatus === 0 ? 'Send' : "Sending"} {formSubmittingStatus === 0 ? <i class="bi bi-send"></i> : <Spineer />}</button>
