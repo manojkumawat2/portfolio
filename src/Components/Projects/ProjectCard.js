@@ -1,7 +1,7 @@
 function ProjectCard(props) {
-    const technologies = props.technologies.map(technology => {
+    const technologies = props.technologies.map((technology, index) => {
         return (
-        <span class="badge rounded-pill bg-light text-dark border border-primary m-1">
+        <span key={index} className="badge rounded-pill bg-light text-dark border border-primary m-1">
             {technology}
         </span>
         );
@@ -9,7 +9,7 @@ function ProjectCard(props) {
     return (
         <div className="project shadow-sm rounded border-top border-primary border-2 mt-5">
             <div className="project-img">
-                <img src={require(`./${props.img_name}`)} alt={props.title} />
+                <img src={require(`./${props.img_name}`)} alt={props.title} loading="lazy" />
             </div>
             <div className="project-content  p-2">
                 <a href="?#" className="text-primary h3 project-title">

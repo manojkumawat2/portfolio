@@ -40,8 +40,9 @@ function Projects() {
 
     ];
 
-    const projects_jsx = projects_data.map(project => {
+    const projects_jsx = projects_data.map((project, index) => {
         return <ProjectCard 
+        key={index}
         img_name={project.img_name} 
         title={project.title}
         desc={project.desc}

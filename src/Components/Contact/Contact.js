@@ -13,7 +13,7 @@ function Contact() {
     const [formSubmittingStatus, setFormSubmittingStatus] = useState(0);
     const Spineer = () => {
         return (
-            <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+            <span className="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
         );
     }
 
@@ -61,19 +61,19 @@ function Contact() {
         <div className="container contact-container">
             <h2 className="text-center text-primary fw-bold">Contact Me</h2>
             <form className="contact-form shadow-sm p-3" onSubmit={handleFormSubmit}>
-                <div class="mb-3">
-                    <label for="email" class="form-label">Email address</label>
-                    <input type="email" class="form-control" id="email" placeholder="name@example.com" value={email} onChange={handleEmailChange} required/>
+                <div className="mb-3">
+                    <label htmlFor="email" className="form-label">Email address</label>
+                    <input type="email" className="form-control" id="email" placeholder="name@example.com" value={email} onChange={handleEmailChange} required/>
                 </div>
-                <div class="mb-3">
-                    <label for="name" class="form-label">Name</label>
-                    <input type="text" class="form-control" id="name" placeholder="Enter Name" value={name} onChange={handleNameChange} required/>
+                <div className="mb-3">
+                    <label htmlFor="name" className="form-label">Name</label>
+                    <input type="text" className="form-control" id="name" placeholder="Enter Name" value={name} onChange={handleNameChange} required/>
                 </div>
-                <div class="mb-3">
-                    <label for="message" class="form-label">Email Message</label>
+                <div className="mb-3">
+                    <label htmlFor="message" className="form-label">Email Message</label>
                     <textarea className="form-control" id="message" placeholder="Enter Message" rows="6" value={message} onChange={handleMessageChange} required/>
                 </div>
-                <button type="submit" class={formSubmittingStatus === 0 ? 'btn btn-primary' : "btn btn-primary disabled"}>{formSubmittingStatus === 0 ? 'Send' : "Sending"} {formSubmittingStatus === 0 ? <i class="bi bi-send"></i> : <Spineer />}</button>
+                <button type="submit" className={formSubmittingStatus === 0 ? 'btn btn-primary' : "btn btn-primary disabled"}>{formSubmittingStatus === 0 ? 'Send' : "Sending"} {formSubmittingStatus === 0 ? <i className="bi bi-send"></i> : <Spineer />}</button>
                 <div className={`mt-2 text-center ${formMessage.status === 'success' ? 'text-success' : 'text-danger'}`}>
                     {formMessage.message}
                 </div>

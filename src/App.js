@@ -1,4 +1,5 @@
 import Header from './Components/Header/Header';
+import Navbar from './Components/Navbar/Navbar';
 import Intro from './Components/Intro/Intro';
 import './App.css';
 import Techstack from './Components/Technologies/Techstack';
@@ -10,6 +11,7 @@ function App() {
   return (
     <div className="App">
         <Header />
+        <Navbar />
         <Intro />
         <Techstack />
         <Projects />

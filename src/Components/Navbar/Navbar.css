@@ -1,0 +1,31 @@
+.navbar-custom {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #dee2e6;
+    overflow: scroll;
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+.navbar-custom::-webkit-scrollbar {
+    display: none;
+}
+
+.navbar-custom .navbar-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    font-size: 20px;
+    color: rgb(47, 45, 43);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navbar-custom .navbar-item span {
+    margin-left: 10px;
+}
